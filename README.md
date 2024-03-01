@@ -6,7 +6,7 @@
 
 GeoCSV Mapper is a Python-based desktop application that provides a Tkinter graphical interface for geocoding and reverse-geocoding CSV files. It allows users to visualize data on a map and supports exporting data in various formats such as CSV, KML, Shapefile, and GeoJSON. The tool also facilitates the conversion between these file formats.
 
-![GeoCSV Mapper Geocoding](D:\CARTOINWGS84\python\Geocoding\images\Geocoding.png)
+![GeoCSV Mapper Geocoding](images\Geocoding.png)
 
 ![GeoCSV Mapper Home](D:\CARTOINWGS84\python\Geocoding\images\Home.png)
 
