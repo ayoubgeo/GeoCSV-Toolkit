@@ -18,6 +18,13 @@ from geopy import GoogleV3, Nominatim, ArcGIS, Point
 from geopy.exc import GeocoderTimedOut, GeocoderServiceError
 from shapely.geometry import mapping
 
+import webbrowser
+
+def open_website():
+    url = 'http://www.carto.ma'
+    webbrowser.open(url)
+
+
 allwindow= ctk.CTk()
 
 def on_focus_in(event):
@@ -820,7 +827,7 @@ def services():
     ExpButton = ctk.CTkButton(home, text="Conversion", width=10, height=2, command=conversion_gui)
     ExpButton.grid(row=1, column=0, padx=5, pady=5, sticky="nswe", columnspan=1)
 
-    AboutButton = ctk.CTkButton(home, text="About", width=10, height=2)
+    AboutButton = ctk.CTkButton(home, text="Contact", width=10, height=2, command=open_website)
     AboutButton.grid(row=1, column=1, padx=5, pady=5, sticky="nswe", columnspan=1)
 
     home.grid_columnconfigure(0, weight=1, minsize=10)
